@@ -1,0 +1,64 @@
+{
+    "services": [
+      {
+        "slug": "custom-software-development",
+        "name": "CUSTOM SOFTWARE DEVELOPMENT",
+        "description": "We develop custom software solutions tailored to your business needs.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "mobile-app-development",
+        "name": "MOBILE APP DEVELOPMENT",
+        "description": "We build modern and user-friendly mobile apps for iOS and Android.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "ui-ux-design",
+        "name": "UI/UX DESIGN",
+        "description": "Our designers create intuitive and visually appealing user interfaces.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "blockchain-development",
+        "name": "BLOCKCHAIN DEVELOPMENT",
+        "description": "We develop secure and decentralized blockchain applications.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "ai-ml",
+        "name": "AI & ML",
+        "description": "We leverage AI and machine learning to solve complex problems.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "erp-solutions",
+        "name": "ERP SOLUTIONS",
+        "description": "We implement and customize enterprise resource planning (ERP) solutions.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "website-development",
+        "name": "WEBSITE DEVELOPMENT",
+        "description": "We build modern and responsive websites for your business.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "crm-solutions",
+        "name": "CRM SOLUTIONS",
+        "description": "We develop and integrate customer relationship management (CRM) systems.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "game-development",
+        "name": "GAME DEVELOPMENT",
+        "description": "We create engaging and immersive games for various platforms.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      },
+      {
+        "slug": "devops",
+        "name": "DEVOPS",
+        "description": "We provide DevOps services for automation and continuous delivery.",
+        "content": "Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources."
+      }
+    ]
+  }
