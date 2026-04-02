@@ -12,12 +12,12 @@ import {
 } from "react-icons/fa";
 
 const metrics = [
-  { icon: FaRegClock, number: 5, label: "Years of Experience" },
-  { icon: FaProjectDiagram, number: 75, label: "Projects Completed" },
-  { icon: FaGlobe, number: 10, label: "Countries Served" },
-  { icon: FaSmile, number: 96, label: "Client Satisfaction Rate (%)" },
-  { icon: FaUserTie, number: 55, label: "Team Members" },
-  { icon: FaCertificate, number: 7, label: "Industry Certifications" },
+  { icon: FaRegClock, number: 2, label: "Years of Experience", suffix: "+" },
+  { icon: FaProjectDiagram, number: 10, label: "Projects Completed", suffix: "+" },
+  { icon: FaGlobe, number: 3, label: "Countries Served", suffix: "+" },
+  { icon: FaSmile, number: 100, label: "Client Satisfaction Rate (%)", suffix: "%" },
+  { icon: FaUserTie, number: 5, label: "Team Members", suffix: "+" },
+  { icon: FaCertificate, number: 4, label: "Industry Certifications", suffix: "+" },
 ];
 
 const Results: React.FC = () => {
@@ -51,7 +51,12 @@ const Results: React.FC = () => {
               <metric.icon className="text-green-600 text-6xl mx-10" />
               <div className="text-left">
                 <div className="text-4xl text-gray-800">
-                  <CountUp start={0} end={metric.number} duration={8} />+
+                  <CountUp
+                    start={0}
+                    end={metric.number}
+                    duration={8}
+                    suffix={metric.suffix ?? "+"}
+                  />
                 </div>
                 <div className="text-gray-800 text-xl">{metric.label}</div>
               </div>
